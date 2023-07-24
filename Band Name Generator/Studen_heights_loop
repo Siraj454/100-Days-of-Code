@@ -1,0 +1,7 @@
+heights=[]
+user_height=input('your height: ')
+heights=user_height.split()
+heights_sum=0
+for height in heights:
+    heights_sum+=float(height)
+print("average height is",heights_sum/len(heights))
